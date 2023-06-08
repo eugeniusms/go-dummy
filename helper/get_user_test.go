@@ -9,6 +9,7 @@ import (
 
 func TestGetUser(t *testing.T) {
 	test := map[string]interface{}{
+		"id": "1",
 		"name": "John Doe",
 		"age": 27,
 		"gender": "Male",

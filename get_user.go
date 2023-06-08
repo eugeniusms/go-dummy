@@ -2,6 +2,7 @@ package go_dummy
 
 func GetUser() map[string]interface{} {
 	user := map[string]interface{}{
+		"id": "1",
 		"name": "John Doe",
 		"age": 27,
 		"gender": "Male",
