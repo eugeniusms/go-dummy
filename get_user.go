@@ -1,6 +1,6 @@
 package go_dummy
 
-func getUser() map[string]interface{} {
+func GetUser() map[string]interface{} {
 	user := map[string]interface{}{
 		"name": "John Doe",
 		"age": 27,
