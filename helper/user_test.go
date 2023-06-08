@@ -7,6 +7,12 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+func BenchmarkGetUser(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		go_dummy.GetUser()
+	}
+}
+
 func TestGetUser(t *testing.T) {
 	test := map[string]interface{}{
 		"id": "1",
