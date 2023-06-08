@@ -8,8 +8,7 @@ import (
 
 func TestGetUserName(t *testing.T) {
 	result := go_dummy.GetUser()["name"]
-	if result != "John Doe" {
-		t.Errorf("GetUser() failed, expected %v, got %v", "John Doe", result)
-		panic("GetUser() failed, expected John Doe")
+	if result != "John Do" {
+		t.Fatalf("Expected John Doe, got %s", result)
 	}
 }
