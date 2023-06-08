@@ -1,0 +1,1 @@
+add dependency: ```github.com/eugeniusms/go-dummy```
